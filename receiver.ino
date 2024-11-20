@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
-
+// Receiver Code -> processes these commands to control the car's motion.
 // Wi-Fi credentials
-const char* ssid = "Dell-5517";     // Replace with your Wi-Fi SSID
-const char* password = "networkpassword"; // Replace with your Wi-Fi password
+const char* ssid = "***";     // Replace with your Wi-Fi SSID
+const char* password = "****"; // Replace with your Wi-Fi password
 
 // Define motor pins
 #define IN1 D0
